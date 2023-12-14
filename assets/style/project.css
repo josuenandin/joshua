@@ -1,0 +1,121 @@
+/* Set up default box-sizing and font styles */
+{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+header {
+	background: linear-gradient(to bottom, #333, #222);
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+	margin-right: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.9s ease-in-out;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+
+main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+section {
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+	flex-basis: calc(50% - 20px);
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.watch {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	flex-basis: calc(33.33% - 20px);
+	transition: box-shadow 0.2s ease-in-out;
+	border-radius: 10px;
+}
+
+.watch:hover {
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.watch img {
+	max-width: 50%;
+}
+
+.watch h3 {
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.watch p {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.watch button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.watch button:hover {
+	background-color: #222;
+}
+.watch {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+

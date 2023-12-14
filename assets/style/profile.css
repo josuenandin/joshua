@@ -1,0 +1,25 @@
+.profile {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile li {
+  margin-bottom: 10px;
+}
+
+.profile li strong {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
